@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#151515</color> <!-- Arka plan rengi -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- ActionBar rengi -->
+    <color name="colorAccent">#FF4081</color> <!-- Vurgu rengi -->
+
+    <color name="morRenk">#FF00FF</color>
+    <color name="siyahRenk">#000000</color>
+
+</resources>

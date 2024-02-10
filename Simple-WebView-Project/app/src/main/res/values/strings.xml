@@ -1,0 +1,27 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">AnimeZevki</string>
+    <string name="terms_and_conditions">
+        <![CDATA[
+            Hoş geldiniz! SiteAdı ailesine katıldığınız için teşekkür ederiz. Lütfen aşağıdaki kullanım koşulları ve hizmet şartlarını dikkatlice okuyunuz. Bu şartlar, uygulamamızı kullanarak oluşturduğumuz bir işbirliğini düzenler ve sizin için en iyi deneyimi sağlamak amacıyla oluşturulmuştur.\n
+            \n
+            1. Gizlilik ve Güvenlik\n
+           \nSiteAdı, sizin ve verilerinizin güvenliği konusuna büyük önem verir. Kişisel bilgileriniz sadece uygulamanın doğru şekilde çalışabilmesi ve size daha iyi hizmet sunabilmesi için kullanılır. Bu bilgiler asla üçüncü taraflarla paylaşılmaz veya satılmaz.\n
+
+            2. Kullanıcı Sorumluluğu\n
+           SiteAdı uygulamasının kullanımı tamamen sizin kontrolünüzdedir. Uygulamanın doğru ve güvenli bir şekilde kullanılması için gereken önlemleri almak sizin sorumluluğunuzdadır.\n
+            \n
+            3. Adil Kullanım Politikası\n
+           SiteAdı kullanıcılarından, platformu hukuka aykırı bir şekilde kullanmamalarını rica eder. Uygunsuz içeriklerin paylaşımı, diğer kullanıcıların haklarını ihlal etmek ve yasa dışı faaliyetlere teşvik etmek kesinlikle yasaktır.\n
+            \n
+            4. İşlevsellik ve Güncellemeler\n
+           SiteAdı sürekli olarak güncellenir ve yeni özellikler eklenir. Bu güncellemeleri düzenli olarak kontrol etmeniz, en iyi kullanıcı deneyimini yaşamanızı sağlar.\n
+            \n
+            5. Yardım ve Destek\n
+           Herhangi bir sorunuz veya yardıma ihtiyacınız varsa, destek@mailiniz.com üzerinden bizimle iletişime geçebilirsiniz. Ekibimiz size yardımcı olmaktan mutluluk duyacaktır.\n
+            \n
+            6. Değişiklikler ve Bildirimler\n
+           Bu kullanım koşulları zaman zaman güncellenebilir. Önemli değişiklikler hakkında sizi uygulama içi bildirim veya kayıtlı e-posta aracılığıyla bilgilendireceğiz.
+        ]]>
+    </string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".WelcomeActivity">
+
+    <!-- Diğer bileşenlerinizi ekleyin (örneğin metinler) -->
+
+    <ImageView
+        android:id="@+id/animeIzleButton"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/afis"
+        app:layout_constraintBottom_toTopOf="@+id/animeFilmIzleButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/animeFilmIzleButton"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/afis2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animeIzleButton"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeMessage" />
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Hoşgeldiniz"
+        android:fontFamily="@font/ltpanneauxbold"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/footerTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animeFilmIzleButton"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Üye olarak yorum yapabilir, izlediğiniz animeleri işaretleyebilir, 'Favorilerime Ekle' veya 'Sonra İzle' gibi seçenekleri kullanabilirsiniz."
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textColor="#888888"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/versiyon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="v1.0"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textColor="#888888"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="5dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
